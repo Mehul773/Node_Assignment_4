@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Users</title>
+    <style>
+      /* Styles for body */
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f0f0f0;
+      }
+
+      /* Styles for h2 */
+      h2 {
+        text-align: center;
+        color: #333;
+      }
+
+      /* Styles for users list */
+      ul {
+        list-style-type: none;
+        padding: 0;
+        margin: 20px auto;
+        max-width: 400px;
+      }
+
+      li {
+        background-color: #fff;
+        padding: 10px;
+        margin-bottom: 10px;
+        border-radius: 5px;
+        box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+      }
+
+      /* Styles for links */
+      a {
+        display: block;
+        width: 200px;
+        margin: 20px auto;
+        padding: 10px;
+        text-align: center;
+        background-color: #007bff;
+        color: #fff;
+        text-decoration: none;
+        border-radius: 5px;
+      }
+
+      a:hover {
+        background-color: #0056b3;
+      }
+    </style>
+  </head>
+  <body>
+    <h2>Users:</h2>
+    <ul>
+      <% users.map(function(user) { %>
+      <li><%= user %></li>
+      <% }); %>
+    </ul>
+    <div><a href="/">Create user</a></div>
+  </body>
+</html>
