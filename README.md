@@ -1,3 +1,22 @@
+# Express App with EJS
+
+This Express application uses EJS as the template engine. Here's why we chose EJS over other options like Pug and Handlebars:
+
+## Why EJS?
+
+EJS, or Embedded JavaScript, allows you to generate dynamic HTML using plain JavaScript. This makes it a familiar syntax for many developers. It's also straightforward and integrates well with Express, making it a good fit for this basic application.
+
+## Why not Pug?
+
+While Pug is a powerful template engine that offers a robust set of features, it requires developers to learn a unique syntax. This can be a barrier for developers who are new to Pug or prefer to work with plain HTML and JavaScript.
+
+## Why not Handlebars?
+
+Handlebars uses a familiar HTML-like syntax and offers custom helpers for reusable code. However, its syntax can be less intuitive compared to plain HTML or JavaScript. Additionally, Handlebars lacks direct support for logic, which requires pre-processing before template compilation.
+
+In conclusion, the choice of a template engine depends on the specific needs and preferences of the project and the team. For this application, EJS was the best fit due to its simplicity and familiarity.
+
+
 # Node.js User Management System
 
 This is a simple Node.js application for managing users.
@@ -40,6 +59,8 @@ You should see the home page of the User Management System.
 
 - View users
 - Create new users
+
+
 
 ## Author
 
